@@ -1,0 +1,91 @@
+# Privacy Policy — ShiftSync (WFM Schedule to Calendar)
+
+**Last updated: July 16, 2026**
+
+ShiftSync ("the extension") is a browser extension that copies the work schedule
+shown on your NICE WFM (WebStation) pages into your own Google Calendar. This
+policy explains exactly what the extension does and does not do with your
+information.
+
+## The short version
+
+- ShiftSync runs entirely **in your browser**.
+- It does **not** send your schedule or any personal data to the developer or to
+  any third-party server.
+- The only place your schedule data is sent is **your own Google Calendar**, and
+  only when you sync.
+- ShiftSync does **not** collect analytics, does **not** track you, does **not**
+  show ads, and does **not** sell or share data with anyone.
+
+## What information ShiftSync accesses
+
+When you view your schedule in NICE WebStation and run a sync (manually or via
+auto-sync), the extension reads the schedule content already displayed on that
+page. This can include:
+
+- Shift, break, meeting, and activity times and labels
+- The date range shown
+- Your name, as displayed on the schedule page (used to name and select the
+  correct calendar)
+
+It also stores a small set of **preferences** you set in the popup:
+
+- Whether auto-sync on page load is enabled
+- Your "My Calendar Name" override, if you enter one
+- A one-time flag recording that you confirmed the first automatic import (and
+  any ±1-hour time adjustment you selected)
+
+## How that information is used
+
+- The schedule content is converted, **locally in your browser**, into a standard
+  calendar file (ICS).
+- That file is imported into your Google Calendar using Google Calendar's own
+  import screen, which the extension opens on your behalf.
+- Your preferences are saved locally using the browser's extension storage so the
+  extension remembers your settings between sessions.
+
+## Where your information goes
+
+| Data | Where it goes | Who can see it |
+|------|---------------|----------------|
+| Your parsed schedule (ICS) | Your Google Calendar account | You (and whoever you share that calendar with) |
+| Your preferences | Local browser storage on your device | You |
+| Anything else | Nowhere — it is not transmitted | — |
+
+ShiftSync has **no backend server**. The developer never receives, stores, or has
+access to your schedule or personal data.
+
+## Data retention
+
+- Preferences remain in local browser storage until you change them, clear the
+  extension's data, or uninstall the extension.
+- Parsed schedule data is held only transiently in local storage during a sync and
+  is not retained afterward beyond what your Google Calendar stores.
+
+## Third-party services
+
+The extension interacts with **Google Calendar** (calendar.google.com) to perform
+the import. Your use of Google Calendar is governed by Google's own privacy policy.
+The extension does not use any other third-party services.
+
+## Children's privacy
+
+ShiftSync is a workplace productivity tool intended for adults in a work setting
+and is not directed at children.
+
+## Changes to this policy
+
+If this policy changes, the "Last updated" date above will be revised and the
+updated policy will be published at the same URL.
+
+## Contact
+
+Questions about this policy or the extension's data practices can be sent to:
+
+**devinredd1@gmail.com**
+
+## Disclaimer
+
+ShiftSync is an independent tool and is not affiliated with, endorsed by, or
+sponsored by NICE Ltd. or Google LLC. "NICE," "WebStation," and "Google Calendar"
+are trademarks of their respective owners.
